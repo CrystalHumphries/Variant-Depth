@@ -6,7 +6,6 @@ Run the program:
 
     cat file | perl AvgDepth.pl or perl AvgDepth.pl file
 
-
 The example of an input is the following:
 
     chr position  dbSNP  Ref Obs  Sample1  Sample2  Sample3   Sample4
@@ -29,5 +28,5 @@ This was created to examine the average depth observed across all 30 samples (ma
 
 An example of the output is as follows:
 
-Chr	Base	dbSNP	Ref	Obs	Group1mean	Group2mean	Group3mean	Avg	Stdev	keep?	Group1min	Group2min	Group3min
-10	100821700	.	 T	 C	 4.60	        2.00	       2.62	    3.11 3.40	 true	   AlZ9	    DLB10	     CON7
+    Chr	Base	dbSNP	Ref	Obs	Group1mean	Group2mean	Group3mean	Avg	Stdev	keep?	Group1min	Group2min	    Group3min
+    10	100821700	.	 T	 C	 4.60	        2.00	       2.62	    3.11 3.40	 true	   AlZ9	    DLB10	     CON7
