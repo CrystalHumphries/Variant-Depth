@@ -8,6 +8,7 @@ Run the program:
 
 
 The example of an input is the following:
+
     chr position  dbSNP  Ref Obs  Sample1  Sample2  Sample3   Sample4
     10	100821700	  .	    T	 C	  2,1,C	   7,1,C	  2,1,C    	2,1,C
 
