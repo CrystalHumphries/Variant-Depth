@@ -58,9 +58,9 @@ sub minimum{
 	    ( $_ == $min ) ? $sample_no = $n : next;
 	}
 	$group_no++;
-	push ( @temp, "AlZ".$sample_no ) if ( $group_no == 1 );
-	push ( @temp, "DLB".$sample_no ) if ( $group_no == 2 );
-        push ( @temp, "CON".$sample_no ) if ( $group_no == 3 );
+	push ( @temp, "Group1_".$sample_no ) if ( $group_no == 1 );
+	push ( @temp, "Group2_".$sample_no ) if ( $group_no == 2 );
+        push ( @temp, "Group3_".$sample_no ) if ( $group_no == 3 );
     }
     return ( @temp );
 }
